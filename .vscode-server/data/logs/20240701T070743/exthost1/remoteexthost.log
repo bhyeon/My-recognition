@@ -1,0 +1,24 @@
+2024-07-01 07:08:00.189 [info] Extension host with pid 9627 started
+2024-07-01 07:08:00.296 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-01 07:08:00.548 [info] Lock '/home/nvidia/.vscode-server/data/User/workspaceStorage/a407562efb505cfa9d965b751ed44318/vscode.lock': Lock acquired.
+2024-07-01 07:08:00.685 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-01 07:08:00.737 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-01 07:08:00.738 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-01 07:08:01.860 [info] Eager extensions activated
+2024-07-01 07:08:01.862 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-01 07:08:01.864 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-01 07:11:22.104 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-07-01 07:17:51.408 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2024-07-01 07:17:52.957 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-07-01 07:17:52.958 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-07-01 07:22:35.120 [error] Error: read ECONNRESET
+	at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-07-01 08:08:10.513 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-07-01 08:08:13.898 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-01 08:08:13.900 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-01 08:08:16.494 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10002
+2024-07-01 08:41:59.705 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2024-07-01 08:41:59.707 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-07-01 08:42:00.991 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2024-07-01 08:42:43.374 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-07-01 08:42:50.483 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000

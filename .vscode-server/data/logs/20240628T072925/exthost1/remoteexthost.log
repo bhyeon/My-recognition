@@ -1,0 +1,12 @@
+2024-06-28 07:29:27.643 [info] Extension host with pid 8579 started
+2024-06-28 07:29:27.746 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-06-28 07:29:27.750 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-06-28 07:29:27.752 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-28 07:29:28.997 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-28 07:29:30.109 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-28 07:29:30.413 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-28 07:29:31.170 [info] Eager extensions activated
+2024-06-28 07:29:31.171 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-28 07:29:31.173 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-28 07:35:36.370 [info] Extension host terminating: renderer disconnected for too long (2)
+2024-06-28 07:35:36.458 [info] Extension host with pid 8579 exiting with code 0

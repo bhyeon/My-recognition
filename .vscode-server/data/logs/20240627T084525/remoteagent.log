@@ -1,0 +1,16 @@
+2024-06-27 08:45:26.160 [info] 
+
+
+
+
+2024-06-27 08:45:26.201 [info] Extension host agent started.
+2024-06-27 08:45:26.375 [info] Started initializing default profile extensions in extensions installation folder. file:///home/nvidia/.vscode-server/extensions
+2024-06-27 08:45:26.380 [info] [<unknown>][15c3e5f5][ManagementConnection] New connection established.
+2024-06-27 08:45:26.385 [info] [<unknown>][0065d939][ExtensionHostConnection] New connection established.
+2024-06-27 08:45:30.522 [info] [<unknown>][0065d939][ExtensionHostConnection] <7398> Launched Extension Host Process.
+2024-06-27 08:45:35.683 [error] No ptyHost response to createProcess after 5 seconds
+2024-06-27 08:45:37.748 [error] No ptyHost response to createProcess after 5 seconds
+2024-06-27 08:45:37.748 [error] No ptyHost response to createProcess after 5 seconds
+2024-06-27 08:45:37.749 [error] No ptyHost response to createProcess after 5 seconds
+2024-06-27 08:45:57.074 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/nvidia/.vscode-server/extensions
+2024-06-27 08:50:26.203 [info] New EH opened, aborting shutdown

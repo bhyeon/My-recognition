@@ -1,0 +1,60 @@
+2024-07-01 07:07:57.609 [info] 
+
+
+
+
+2024-07-01 07:07:57.661 [info] Extension host agent started.
+2024-07-01 07:07:57.907 [info] [<unknown>][281ffb8e][ExtensionHostConnection] New connection established.
+2024-07-01 07:07:57.928 [info] [<unknown>][85084a68][ManagementConnection] New connection established.
+2024-07-01 07:07:58.228 [info] [<unknown>][281ffb8e][ExtensionHostConnection] <9627> Launched Extension Host Process.
+2024-07-01 07:08:01.879 [error] CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:55:30556)
+    at A.updateTitle (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:55:25756)
+    at R.D.<computed> (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:55:21031)
+    at Object.call (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5367)
+    at a.s (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5482)
+    at a.q (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4923)
+    at m.value (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4223)
+    at r.y (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:29:668)
+    at r.fire (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:29:885)
+    at process.$e (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-07-01 07:08:01.884 [error] CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:55:30556)
+    at A.updateIcon (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:55:25806)
+    at R.D.<computed> (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:55:21031)
+    at Object.call (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5367)
+    at a.s (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5482)
+    at a.q (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4923)
+    at m.value (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4223)
+    at r.y (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:29:668)
+    at r.fire (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:29:885)
+    at process.$e (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-07-01 07:12:57.663 [info] New EH opened, aborting shutdown
+2024-07-01 07:15:18.147 [info] Getting Manifest... ms-python.python
+2024-07-01 07:15:18.579 [info] Installing extension: ms-python.python file:///home/nvidia/.vscode-server/extensions/extensions.json
+2024-07-01 07:15:19.618 [info] Getting Manifest... ms-python.vscode-pylance
+2024-07-01 07:15:19.848 [info] Getting Manifest... ms-python.debugpy
+2024-07-01 07:15:20.126 [info] Installing extension: ms-python.vscode-pylance file:///home/nvidia/.vscode-server/extensions/extensions.json
+2024-07-01 07:15:20.127 [info] Installing extension: ms-python.debugpy file:///home/nvidia/.vscode-server/extensions/extensions.json
+2024-07-01 07:15:36.054 [info] Extension signature verification result for ms-python.debugpy: Success. Executed: true. Duration: 5156ms.
+2024-07-01 07:15:37.622 [info] Extracted extension to file:///home/nvidia/.vscode-server/extensions/ms-python.debugpy-2024.6.0-linux-arm64: ms-python.debugpy
+2024-07-01 07:15:37.754 [info] Renamed to /home/nvidia/.vscode-server/extensions/ms-python.debugpy-2024.6.0-linux-arm64
+2024-07-01 07:16:29.169 [info] Extension signature verification result for ms-python.python: Success. Executed: true. Duration: 2686ms.
+2024-07-01 07:16:36.111 [info] Extracted extension to file:///home/nvidia/.vscode-server/extensions/ms-python.python-2024.8.1: ms-python.python
+2024-07-01 07:16:36.433 [info] Renamed to /home/nvidia/.vscode-server/extensions/ms-python.python-2024.8.1
+2024-07-01 07:17:40.259 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Executed: true. Duration: 3800ms.
+2024-07-01 07:17:50.177 [info] Extracted extension to file:///home/nvidia/.vscode-server/extensions/ms-python.vscode-pylance-2024.6.1: ms-python.vscode-pylance
+2024-07-01 07:17:50.789 [info] Renamed to /home/nvidia/.vscode-server/extensions/ms-python.vscode-pylance-2024.6.1
+2024-07-01 07:17:51.037 [info] Extension installed successfully: ms-python.debugpy file:///home/nvidia/.vscode-server/extensions/extensions.json
+2024-07-01 07:17:51.038 [info] Extension installed successfully: ms-python.python file:///home/nvidia/.vscode-server/extensions/extensions.json
+2024-07-01 07:17:51.038 [info] Extension installed successfully: ms-python.vscode-pylance file:///home/nvidia/.vscode-server/extensions/extensions.json
+2024-07-01 07:23:28.938 [info] Getting Manifest... ms-python.python
+2024-07-01 07:23:30.015 [info] Installing extension: ms-python.python file:///home/nvidia/.vscode-server/extensions/extensions.json
+2024-07-01 07:23:32.482 [info] Extension installed successfully: ms-python.python file:///home/nvidia/.vscode-server/extensions/extensions.json
+2024-07-01 08:42:19.280 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

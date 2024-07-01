@@ -1,0 +1,68 @@
+2024-06-28 07:29:25.539 [info] 
+
+
+
+
+2024-06-28 07:29:25.585 [info] Extension host agent started.
+2024-06-28 07:29:25.825 [info] [<unknown>][fe4c7fe1][ManagementConnection] New connection established.
+2024-06-28 07:29:25.836 [info] [<unknown>][f5a95493][ExtensionHostConnection] New connection established.
+2024-06-28 07:29:26.183 [info] [<unknown>][f5a95493][ExtensionHostConnection] <8579> Launched Extension Host Process.
+2024-06-28 07:30:36.289 [info] [<unknown>][9da93889][ManagementConnection] New connection established.
+2024-06-28 07:30:36.298 [info] [<unknown>][1903f148][ExtensionHostConnection] New connection established.
+2024-06-28 07:30:36.310 [info] [<unknown>][1903f148][ExtensionHostConnection] <8898> Launched Extension Host Process.
+2024-06-28 07:30:38.628 [error] CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:55:30556)
+    at A.updateTitle (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:55:25756)
+    at R.D.<computed> (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:55:21031)
+    at Object.call (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5367)
+    at a.s (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5482)
+    at a.q (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4923)
+    at m.value (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4223)
+    at r.y (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:29:668)
+    at r.fire (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:29:885)
+    at process.$e (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-06-28 07:34:25.607 [info] New EH opened, aborting shutdown
+2024-06-28 07:34:25.613 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/server/node/server.main.js:191:6373)
+    at process.emit (node:events:518:28)
+2024-06-28 07:35:36.486 [info] [<unknown>][f5a95493][ExtensionHostConnection] <8579> Extension Host Process exited with code: 0, signal: null.
+2024-06-28 08:14:20.122 [info] [<unknown>][d27ae988][ExtensionHostConnection] New connection established.
+2024-06-28 08:14:20.136 [info] [<unknown>][d27ae988][ExtensionHostConnection] <22748> Launched Extension Host Process.
+2024-06-28 08:14:20.140 [info] [<unknown>][05be16bb][ManagementConnection] New connection established.
+2024-06-28 08:14:23.676 [warning] No ptyHost heartbeat after 6 seconds
+2024-06-28 08:14:29.263 [error] CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:55:30556)
+    at A.updateTitle (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:55:25756)
+    at R.D.<computed> (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:55:21031)
+    at Object.call (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5367)
+    at a.s (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5482)
+    at a.q (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4923)
+    at m.value (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4223)
+    at r.y (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:29:668)
+    at r.fire (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:29:885)
+    at process.$e (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-06-28 08:14:29.269 [error] CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:55:30556)
+    at A.updateIcon (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:55:25806)
+    at R.D.<computed> (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:55:21031)
+    at Object.call (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5367)
+    at a.s (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5482)
+    at a.q (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4923)
+    at m.value (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4223)
+    at r.y (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:29:668)
+    at r.fire (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:29:885)
+    at process.$e (/home/nvidia/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-06-28 08:19:20.358 [info] [<unknown>][1903f148][ExtensionHostConnection] <8898> Extension Host Process exited with code: 0, signal: null.
+2024-06-28 08:26:26.896 [info] [<unknown>][651bd1a0][ManagementConnection] New connection established.
+2024-06-28 08:26:26.902 [info] [<unknown>][d1761195][ExtensionHostConnection] New connection established.
+2024-06-28 08:26:26.919 [info] [<unknown>][d1761195][ExtensionHostConnection] <24204> Launched Extension Host Process.
+2024-06-28 08:31:27.102 [info] [<unknown>][d27ae988][ExtensionHostConnection] <22748> Extension Host Process exited with code: 0, signal: null.

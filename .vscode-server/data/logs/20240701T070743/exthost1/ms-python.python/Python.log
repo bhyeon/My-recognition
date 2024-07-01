@@ -1,0 +1,88 @@
+2024-07-01 07:17:52.690 [info] Experiment 'pythonaa' is active
+2024-07-01 07:17:52.690 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-07-01 07:17:52.690 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-07-01 07:17:52.690 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-07-01 07:17:52.690 [info] Experiment 'pythonTestAdapter' is active
+2024-07-01 07:17:52.891 [info] Default formatter is set to null for workspace /home/nvidia
+2024-07-01 07:17:52.924 [info] Starting Environment refresh
+2024-07-01 07:17:52.925 [info] Searching for interpreters in posix paths locator
+2024-07-01 07:17:52.945 [info] Searching for pyenv environments
+2024-07-01 07:17:52.946 [info] Searching for conda environments
+2024-07-01 07:17:52.947 [info] Searching for global virtual environments
+2024-07-01 07:17:52.947 [info] Searching for custom virtual environments
+2024-07-01 07:17:54.285 [info] pyenv is not installed
+2024-07-01 07:17:54.285 [info] Finished searching for pyenv environments: 1357 milliseconds
+2024-07-01 07:17:54.286 [info] Finished searching for custom virtual envs: 1355 milliseconds
+2024-07-01 07:17:54.302 [info] > conda info --json
+2024-07-01 07:17:54.322 [info] > hatch env show --json
+2024-07-01 07:17:54.322 [info] cwd: .
+2024-07-01 07:17:54.345 [info] > pyenv which python
+2024-07-01 07:17:54.345 [info] cwd: .
+2024-07-01 07:17:54.346 [info] Finished searching for global virtual envs: 1416 milliseconds
+2024-07-01 07:17:54.499 [info] Found: /usr/bin/python --> /usr/bin/python2.7
+2024-07-01 07:17:54.538 [info] Found: /usr/bin/python2 --> /usr/bin/python2.7
+2024-07-01 07:17:54.538 [info] Found: /usr/bin/python2.7 --> /usr/bin/python2.7
+2024-07-01 07:17:54.539 [info] Found: /usr/bin/python3 --> /usr/bin/python3.6
+2024-07-01 07:17:54.540 [info] Found: /usr/bin/python3.6 --> /usr/bin/python3.6
+2024-07-01 07:17:54.554 [info] Found: /usr/include/python3.6 --> /usr/include/python3.6m
+2024-07-01 07:17:54.614 [info] > /usr/bin/python -I ./.vscode-server/extensions/ms-python.python-2024.8.1/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.8.1/python_files/interpreterInfo.py
+2024-07-01 07:17:54.622 [warning] [Error: Command failed: /usr/bin/python -I /home/nvidia/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/get_output_via_markers.py /home/nvidia/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/interpreterInfo.py
+Unknown option: -I
+usage: /usr/bin/python [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:423:12)
+	at ChildProcess.emit (node:events:530:35)
+	at maybeClose (node:internal/child_process:1105:16)
+	at Socket.<anonymous> (node:internal/child_process:457:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:337:12)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/usr/bin/python -I /home/nvidia/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/get_output_via_markers.py /home/nvidia/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/interpreterInfo.py'
+}
+2024-07-01 07:17:54.622 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2024-07-01 07:17:54.631 [info] > /usr/bin/python ./.vscode-server/extensions/ms-python.python-2024.8.1/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.8.1/python_files/interpreterInfo.py
+2024-07-01 07:17:54.661 [info] Finished searching for interpreters in posix paths locator: 1731 milliseconds
+2024-07-01 07:17:54.661 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.8.1/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.8.1/python_files/interpreterInfo.py
+2024-07-01 07:17:54.683 [info] > /usr/include/python3.6 -I ./.vscode-server/extensions/ms-python.python-2024.8.1/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.8.1/python_files/interpreterInfo.py
+2024-07-01 07:17:54.683 [info] Environments refresh paths discovered (event): 1765 milliseconds
+2024-07-01 07:17:54.683 [info] Environments refresh paths discovered: 1766 milliseconds
+2024-07-01 07:17:54.692 [error] [Error: Command failed: /usr/include/python3.6 -I /home/nvidia/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/get_output_via_markers.py /home/nvidia/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/interpreterInfo.py
+/bin/sh: 1: /usr/include/python3.6: Permission denied
+
+	at ChildProcess.exithandler (node:child_process:423:12)
+	at ChildProcess.emit (node:events:530:35)
+	at maybeClose (node:internal/child_process:1105:16)
+	at Socket.<anonymous> (node:internal/child_process:457:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:337:12)] {
+  code: 126,
+  killed: false,
+  signal: null,
+  cmd: '/usr/include/python3.6 -I /home/nvidia/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/get_output_via_markers.py /home/nvidia/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/interpreterInfo.py'
+}
+2024-07-01 07:17:56.701 [info] > /usr/include/python3.6 -I ./.vscode-server/extensions/ms-python.python-2024.8.1/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.8.1/python_files/interpreterInfo.py
+2024-07-01 07:17:56.704 [error] [Error: Command failed: /usr/include/python3.6 -I /home/nvidia/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/get_output_via_markers.py /home/nvidia/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/interpreterInfo.py
+/bin/sh: 1: /usr/include/python3.6: Permission denied
+
+	at ChildProcess.exithandler (node:child_process:423:12)
+	at ChildProcess.emit (node:events:530:35)
+	at maybeClose (node:internal/child_process:1105:16)
+	at Socket.<anonymous> (node:internal/child_process:457:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:337:12)] {
+  code: 126,
+  killed: false,
+  signal: null,
+  cmd: '/usr/include/python3.6 -I /home/nvidia/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/get_output_via_markers.py /home/nvidia/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/interpreterInfo.py'
+}
+2024-07-01 07:17:56.704 [info] Environments refresh finished (event): 3787 milliseconds
+2024-07-01 07:17:56.740 [info] Environment refresh took 3821 milliseconds
+2024-07-01 07:17:56.751 [info] Python interpreter path: /usr/bin/python3
+2024-07-01 07:17:59.658 [info] Starting Pylance language server.
+2024-07-01 07:26:37.739 [info] Discover tests for workspace name: nvidia - uri: /home/nvidia/my_recognition/my-recognition.py
+2024-07-01 07:26:39.988 [info] Discover tests for workspace name: nvidia - uri: /home/nvidia/my_recognition/my-recognition.py
+2024-07-01 08:08:15.037 [info] Discover tests for workspace name: nvidia - uri: /home/nvidia/.vscode/settings.json
+2024-07-01 08:08:15.310 [info] Discover tests for workspace name: nvidia - uri: /home/nvidia/.vscode/settings.json

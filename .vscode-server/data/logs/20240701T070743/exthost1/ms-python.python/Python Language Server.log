@@ -1,0 +1,56 @@
+2024-07-01 07:17:57.872 [info] (Client) Pylance async client (2024.6.1) started with python extension (2024.8.1)
+2024-07-01 07:17:59.581 [info] [Info  - 7:17:59 AM] (10202) Pylance language server 2024.6.1 (pyright version 1.1.364, commit 0618acc5) starting
+2024-07-01 07:17:59.597 [info] [Info  - 7:17:59 AM] (10202) Server root directory: file:///home/nvidia/.vscode-server/extensions/ms-python.vscode-pylance-2024.6.1/dist
+2024-07-01 07:17:59.598 [info] [Info  - 7:17:59 AM] (10202) Starting service instance "nvidia"
+2024-07-01 07:17:59.714 [info] Auto-Indent enabled
+2024-07-01 07:17:59.771 [info] Auto-Indent enabled
+2024-07-01 07:17:59.775 [info] [Info  - 7:17:59 AM] (10202) Setting pythonPath for service "nvidia": "/usr/bin/python3"
+2024-07-01 07:17:59.775 [info] [Info  - 7:17:59 AM] (10202) Setting environmentName for service "nvidia": "3.6.9 (global)"
+2024-07-01 07:17:59.907 [info] [Info  - 7:17:59 AM] (10202) Assuming Python version 3.6.9.final.0
+2024-07-01 07:18:01.253 [info] [Info  - 7:18:01 AM] (10202) Found 196 source files
+2024-07-01 07:18:01.268 [info] Auto-Indent enabled
+2024-07-01 07:18:02.692 [info] [Info  - 7:18:02 AM] (10202) Background analysis(1) root directory: file:///home/nvidia/.vscode-server/extensions/ms-python.vscode-pylance-2024.6.1/dist
+2024-07-01 07:18:02.702 [info] [Info  - 7:18:02 AM] (10202) Background analysis(1) started
+2024-07-01 07:18:03.442 [info] [Info  - 7:18:03 AM] (10202) Indexer background runner(2) root directory: file:///home/nvidia/.vscode-server/extensions/ms-python.vscode-pylance-2024.6.1/dist (index)
+2024-07-01 07:18:03.443 [info] [Info  - 7:18:03 AM] (10202) Indexing(2) started
+2024-07-01 07:18:06.470 [info] [Info  - 7:18:06 AM] (10202) [IDX(2)] Long operation: scan packages file:///home/nvidia (2623ms)
+2024-07-01 07:18:06.787 [info] [Info  - 7:18:06 AM] (10202) scanned(2) 193 files over 1 exec env
+2024-07-01 07:18:24.998 [info] [Info  - 7:18:24 AM] (10202) [IDX(2)] Long operation: indexing: file:///home/nvidia/.vscode-server/extensions/ms-python.vscode-pylance-2024.6.1/dist/bundled/stubs/matplotlib/textpath.pyi (12981ms)
+2024-07-01 07:18:27.875 [info] [Info  - 7:18:27 AM] (10202) [IDX(2)] Long operation: indexing: file:///home/nvidia/.vscode-server/extensions/ms-python.vscode-pylance-2024.6.1/dist/bundled/stubs/pandas/__init__.pyi (2584ms)
+2024-07-01 07:18:30.171 [info] [Info  - 7:18:30 AM] (10202) [IDX(2)] Long operation: indexing: file:///usr/lib/python3.6/concurrent/__init__.py (2295ms)
+2024-07-01 07:18:44.555 [info] [Info  - 7:18:44 AM] (10202) [IDX(2)] Long operation: indexing: file:///usr/lib/python3/dist-packages/debian_bundle/__init__.py (2162ms)
+2024-07-01 07:18:46.685 [info] [Info  - 7:18:46 AM] (10202) [IDX(2)] Long operation: indexing: file:///usr/lib/python3/dist-packages/janitor/__init__.py (2357ms)
+2024-07-01 07:18:56.592 [info] [Info  - 7:18:56 AM] (10202) Starting service instance "<default>"
+2024-07-01 07:18:56.608 [info] [Info  - 7:18:56 AM] (10202) [IDX(2)] Long operation: binding: file:///usr/lib/python3/dist-packages/numpy/core/__init__.py (2810ms)
+2024-07-01 07:18:56.651 [info] Auto-Indent enabled
+2024-07-01 07:18:56.655 [info] [Info  - 7:18:56 AM] (10202) Setting pythonPath for service "<default>": "/usr/bin/python3"
+2024-07-01 07:18:56.656 [info] [Info  - 7:18:56 AM] (10202) Setting environmentName for service "<default>": "3.6.9 (global)"
+2024-07-01 07:18:56.798 [info] [Info  - 7:18:56 AM] (10202) Assuming Python version 3.6.9.final.0
+2024-07-01 07:18:57.982 [info] [Info  - 7:18:57 AM] (10202) No source files found.
+2024-07-01 07:18:58.353 [info] [Info  - 7:18:58 AM] (10202) Background analysis(3) root directory: file:///home/nvidia/.vscode-server/extensions/ms-python.vscode-pylance-2024.6.1/dist
+2024-07-01 07:18:58.371 [info] [Info  - 7:18:58 AM] (10202) Background analysis(3) started
+2024-07-01 07:19:01.202 [info] [Info  - 7:19:01 AM] (10202) [IDX(2)] Long operation: parsing: file:///usr/lib/python3/dist-packages/numpy/lib/nanfunctions.py (2522ms)
+2024-07-01 07:19:03.672 [info] [Info  - 7:19:03 AM] (10202) [IDX(2)] Long operation: parsing: file:///usr/lib/python3/dist-packages/numpy/lib/shape_base.py (2468ms)
+2024-07-01 07:19:05.633 [info] [Info  - 7:19:05 AM] (10202) [IDX(2)] Long operation: binding: file:///usr/lib/python3/dist-packages/numpy/lib/__init__.py (8941ms)
+2024-07-01 07:19:07.079 [info] [Info  - 7:19:07 AM] (10202) [IDX(2)] Long operation: binding: file:///usr/lib/python3/dist-packages/numpy/__init__.py (13419ms)
+2024-07-01 07:19:09.190 [info] [Info  - 7:19:09 AM] (10202) [IDX(2)] Long operation: parsing: file:///usr/lib/python3/dist-packages/numpy/_globals.py (2104ms)
+2024-07-01 07:19:13.381 [info] [Info  - 7:19:13 AM] (10202) [IDX(2)] Long operation: indexing: file:///usr/lib/python3/dist-packages/numpy/__init__.py (18546ms)
+2024-07-01 07:19:19.285 [info] [Info  - 7:19:19 AM] (10202) [IDX(2)] Long operation: parsing: file:///usr/lib/python3/dist-packages/scipy/misc/common.py (2222ms)
+2024-07-01 07:19:21.771 [info] [Info  - 7:19:21 AM] (10202) [IDX(2)] Long operation: parsing: file:///usr/lib/python3/dist-packages/scipy/misc/pilutil.py (2483ms)
+2024-07-01 07:19:21.776 [info] [Info  - 7:19:21 AM] (10202) [IDX(2)] Long operation: binding: file:///usr/lib/python3/dist-packages/scipy/misc/__init__.py (4713ms)
+2024-07-01 07:19:24.324 [info] [Info  - 7:19:24 AM] (10202) [IDX(2)] Long operation: parsing: file:///usr/lib/python3/dist-packages/scipy/special/__init__.py (2464ms)
+2024-07-01 07:19:26.961 [info] [Info  - 7:19:26 AM] (10202) [IDX(2)] Long operation: parsing: file:///usr/lib/python3/dist-packages/scipy/special/basic.py (2542ms)
+2024-07-01 07:19:27.159 [info] [Info  - 7:19:27 AM] (10202) [IDX(2)] Long operation: binding: file:///usr/lib/python3/dist-packages/scipy/special/__init__.py (2832ms)
+2024-07-01 07:19:27.282 [info] [Info  - 7:19:27 AM] (10202) [IDX(2)] Long operation: indexing: file:///usr/lib/python3/dist-packages/scipy/misc/__init__.py (11345ms)
+2024-07-01 07:19:29.745 [info] [Info  - 7:19:29 AM] (10202) [IDX(2)] Long operation: binding: file:///usr/lib/python3/dist-packages/scipy/fftpack/__init__.py (2178ms)
+2024-07-01 07:19:29.747 [info] [Info  - 7:19:29 AM] (10202) [IDX(2)] Long operation: indexing: file:///usr/lib/python3/dist-packages/scipy/fftpack/__init__.py (2277ms)
+2024-07-01 07:19:35.806 [info] [Info  - 7:19:35 AM] (10202) [IDX(2)] Long operation: parsing: file:///usr/lib/python3/dist-packages/scipy/interpolate/interpolate.py (2907ms)
+2024-07-01 07:19:37.196 [info] [Info  - 7:19:37 AM] (10202) [IDX(2)] Long operation: binding: file:///usr/lib/python3/dist-packages/scipy/interpolate/__init__.py (4297ms)
+2024-07-01 07:19:37.197 [info] [Info  - 7:19:37 AM] (10202) [IDX(2)] Long operation: indexing: file:///usr/lib/python3/dist-packages/scipy/interpolate/__init__.py (6241ms)
+2024-07-01 07:19:39.388 [info] [Info  - 7:19:39 AM] (10202) [IDX(2)] Long operation: index execution environment file:///home/nvidia (91779ms)
+2024-07-01 07:19:39.428 [info] [Info  - 7:19:39 AM] (10202) [IDX(2)] Long operation: index packages file:///home/nvidia (91852ms)
+2024-07-01 07:19:39.428 [info] [Info  - 7:19:39 AM] (10202) indexed(2) 114 files over 1 exec env
+2024-07-01 07:19:39.641 [info] [Info  - 7:19:39 AM] (10202) Indexing finished(2).
+2024-07-01 07:27:56.330 [info] [Info  - 7:27:56 AM] (10202) Found 197 source files
+2024-07-01 07:28:28.617 [info] [Info  - 7:28:28 AM] (10202) Found 196 source files
+2024-07-01 07:29:43.195 [info] [Info  - 7:29:43 AM] (10202) Found 197 source files
